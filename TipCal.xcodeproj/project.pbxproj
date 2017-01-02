@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		333E4F0B1E19336100348762 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333E4F0A1E19336100348762 /* AppDelegate.swift */; };
+		333E4F0D1E19336100348762 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333E4F0C1E19336100348762 /* ViewController.swift */; };
+		333E4F101E19336100348762 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 333E4F0E1E19336100348762 /* Main.storyboard */; };
+		333E4F121E19336100348762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 333E4F111E19336100348762 /* Assets.xcassets */; };
+		333E4F151E19336100348762 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 333E4F131E19336100348762 /* LaunchScreen.storyboard */; };
+		333E4F201E19336200348762 /* TipCalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333E4F1F1E19336200348762 /* TipCalTests.swift */; };
+		333E4F2B1E19336200348762 /* TipCalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333E4F2A1E19336200348762 /* TipCalUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		333E4F1C1E19336200348762 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 333E4EFF1E19336100348762 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 333E4F061E19336100348762;
+			remoteInfo = TipCal;
+		};
+		333E4F271E19336200348762 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 333E4EFF1E19336100348762 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 333E4F061E19336100348762;
+			remoteInfo = TipCal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		333E4F071E19336100348762 /* TipCal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		333E4F0A1E19336100348762 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		333E4F0C1E19336100348762 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		333E4F0F1E19336100348762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		333E4F111E19336100348762 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		333E4F141E19336100348762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		333E4F161E19336100348762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		333E4F1B1E19336200348762 /* TipCalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		333E4F1F1E19336200348762 /* TipCalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalTests.swift; sourceTree = "<group>"; };
+		333E4F211E19336200348762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		333E4F261E19336200348762 /* TipCalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		333E4F2A1E19336200348762 /* TipCalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalUITests.swift; sourceTree = "<group>"; };
+		333E4F2C1E19336200348762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		333E4F041E19336100348762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		333E4F181E19336200348762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		333E4F231E19336200348762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		333E4EFE1E19336100348762 = {
+			isa = PBXGroup;
+			children = (
+				333E4F091E19336100348762 /* TipCal */,
+				333E4F1E1E19336200348762 /* TipCalTests */,
+				333E4F291E19336200348762 /* TipCalUITests */,
+				333E4F081E19336100348762 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		333E4F081E19336100348762 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				333E4F071E19336100348762 /* TipCal.app */,
+				333E4F1B1E19336200348762 /* TipCalTests.xctest */,
+				333E4F261E19336200348762 /* TipCalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		333E4F091E19336100348762 /* TipCal */ = {
+			isa = PBXGroup;
+			children = (
+				333E4F0A1E19336100348762 /* AppDelegate.swift */,
+				333E4F0C1E19336100348762 /* ViewController.swift */,
+				333E4F0E1E19336100348762 /* Main.storyboard */,
+				333E4F111E19336100348762 /* Assets.xcassets */,
+				333E4F131E19336100348762 /* LaunchScreen.storyboard */,
+				333E4F161E19336100348762 /* Info.plist */,
+			);
+			path = TipCal;
+			sourceTree = "<group>";
+		};
+		333E4F1E1E19336200348762 /* TipCalTests */ = {
+			isa = PBXGroup;
+			children = (
+				333E4F1F1E19336200348762 /* TipCalTests.swift */,
+				333E4F211E19336200348762 /* Info.plist */,
+			);
+			path = TipCalTests;
+			sourceTree = "<group>";
+		};
+		333E4F291E19336200348762 /* TipCalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				333E4F2A1E19336200348762 /* TipCalUITests.swift */,
+				333E4F2C1E19336200348762 /* Info.plist */,
+			);
+			path = TipCalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		333E4F061E19336100348762 /* TipCal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 333E4F2F1E19336200348762 /* Build configuration list for PBXNativeTarget "TipCal" */;
+			buildPhases = (
+				333E4F031E19336100348762 /* Sources */,
+				333E4F041E19336100348762 /* Frameworks */,
+				333E4F051E19336100348762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TipCal;
+			productName = TipCal;
+			productReference = 333E4F071E19336100348762 /* TipCal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		333E4F1A1E19336200348762 /* TipCalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 333E4F321E19336200348762 /* Build configuration list for PBXNativeTarget "TipCalTests" */;
+			buildPhases = (
+				333E4F171E19336200348762 /* Sources */,
+				333E4F181E19336200348762 /* Frameworks */,
+				333E4F191E19336200348762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				333E4F1D1E19336200348762 /* PBXTargetDependency */,
+			);
+			name = TipCalTests;
+			productName = TipCalTests;
+			productReference = 333E4F1B1E19336200348762 /* TipCalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		333E4F251E19336200348762 /* TipCalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 333E4F351E19336200348762 /* Build configuration list for PBXNativeTarget "TipCalUITests" */;
+			buildPhases = (
+				333E4F221E19336200348762 /* Sources */,
+				333E4F231E19336200348762 /* Frameworks */,
+				333E4F241E19336200348762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				333E4F281E19336200348762 /* PBXTargetDependency */,
+			);
+			name = TipCalUITests;
+			productName = TipCalUITests;
+			productReference = 333E4F261E19336200348762 /* TipCalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		333E4EFF1E19336100348762 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Jose Guerrero";
+				TargetAttributes = {
+					333E4F061E19336100348762 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					333E4F1A1E19336200348762 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 333E4F061E19336100348762;
+					};
+					333E4F251E19336200348762 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 333E4F061E19336100348762;
+					};
+				};
+			};
+			buildConfigurationList = 333E4F021E19336100348762 /* Build configuration list for PBXProject "TipCal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 333E4EFE1E19336100348762;
+			productRefGroup = 333E4F081E19336100348762 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				333E4F061E19336100348762 /* TipCal */,
+				333E4F1A1E19336200348762 /* TipCalTests */,
+				333E4F251E19336200348762 /* TipCalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		333E4F051E19336100348762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333E4F151E19336100348762 /* LaunchScreen.storyboard in Resources */,
+				333E4F121E19336100348762 /* Assets.xcassets in Resources */,
+				333E4F101E19336100348762 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		333E4F191E19336200348762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		333E4F241E19336200348762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		333E4F031E19336100348762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333E4F0D1E19336100348762 /* ViewController.swift in Sources */,
+				333E4F0B1E19336100348762 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		333E4F171E19336200348762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333E4F201E19336200348762 /* TipCalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		333E4F221E19336200348762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333E4F2B1E19336200348762 /* TipCalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		333E4F1D1E19336200348762 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 333E4F061E19336100348762 /* TipCal */;
+			targetProxy = 333E4F1C1E19336200348762 /* PBXContainerItemProxy */;
+		};
+		333E4F281E19336200348762 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 333E4F061E19336100348762 /* TipCal */;
+			targetProxy = 333E4F271E19336200348762 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		333E4F0E1E19336100348762 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				333E4F0F1E19336100348762 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		333E4F131E19336100348762 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				333E4F141E19336100348762 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		333E4F2D1E19336200348762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		333E4F2E1E19336200348762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		333E4F301E19336200348762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TipCal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "not-known.TipCal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		333E4F311E19336200348762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TipCal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "not-known.TipCal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		333E4F331E19336200348762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TipCalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "not-known.TipCalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TipCal.app/TipCal";
+			};
+			name = Debug;
+		};
+		333E4F341E19336200348762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TipCalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "not-known.TipCalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TipCal.app/TipCal";
+			};
+			name = Release;
+		};
+		333E4F361E19336200348762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TipCalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "not-known.TipCalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TipCal;
+			};
+			name = Debug;
+		};
+		333E4F371E19336200348762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TipCalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "not-known.TipCalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TipCal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		333E4F021E19336100348762 /* Build configuration list for PBXProject "TipCal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				333E4F2D1E19336200348762 /* Debug */,
+				333E4F2E1E19336200348762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		333E4F2F1E19336200348762 /* Build configuration list for PBXNativeTarget "TipCal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				333E4F301E19336200348762 /* Debug */,
+				333E4F311E19336200348762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		333E4F321E19336200348762 /* Build configuration list for PBXNativeTarget "TipCalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				333E4F331E19336200348762 /* Debug */,
+				333E4F341E19336200348762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		333E4F351E19336200348762 /* Build configuration list for PBXNativeTarget "TipCalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				333E4F361E19336200348762 /* Debug */,
+				333E4F371E19336200348762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 333E4EFF1E19336100348762 /* Project object */;
+}
