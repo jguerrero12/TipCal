@@ -48,18 +48,5 @@ class ViewController: UIViewController {
         totalLabel.text = String(format: "$%.2f", total)
     }
     
-    func verifyItems(origItems: [String], origPrices: [Float], items: [String], prices: [Float]) -> Int {
-        var numOfErrors = 0
-        for each in items {
-            var indexOfOrig = origItems.index(of: each)
-            var indexOfAlex = items.index(of: each)
-            if origPrices[indexOfOrig!] != prices[indexOfAlex!]{
-                numOfErrors += 1
-                }
-            }
-        return numOfErrors
-    }
-    
-    
 }
 
