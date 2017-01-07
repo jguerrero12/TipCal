@@ -4,14 +4,14 @@ TipCal is a tip calculator application for iOS.
 
 Submitted by: Jose A. Guerrero
 
-Time spent: 11 hours spent in total
+Time spent: 14 hours spent in total
 
 ## User Stories
 
 The following **required** functionality is complete:
 
-* [ * ] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
-* [ ] Settings page to change the default tip percentage.
+*  User can enter a bill amount, choose a tip percentage, and see the tip and total values.
+*  Settings page to change the default tip percentage.
 
 The following **optional** features are implemented:
 * [ ] UI animations
@@ -21,7 +21,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+-  Dark Theme
 
 ## Video Walkthrough 
 
